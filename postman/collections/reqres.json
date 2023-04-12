@@ -242,10 +242,19 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "PUT",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"zion resident\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://reqres.in/api/users/{{userId}}",
+					"raw": "https://reqres.in/api/users/2",
 					"protocol": "https",
 					"host": [
 						"reqres",
@@ -254,9 +263,21 @@
 					"path": [
 						"api",
 						"users",
-						"{{userId}}"
+						"2"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"id": "08680235-b3af-47c5-8a36-1b807f7e6cad",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
