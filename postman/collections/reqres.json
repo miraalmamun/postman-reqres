@@ -268,18 +268,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "put",
-			"id": "08680235-b3af-47c5-8a36-1b807f7e6cad",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
 		}
 	],
 	"event": [
